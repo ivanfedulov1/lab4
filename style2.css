@@ -1,0 +1,89 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612903947_202-p-krasnii-fon-s-serdechkami-dlya-fotoshopa-231.jpg");
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+.calc-container {
+    background-color: #c6b5b5; /* Белый фон контейнера калькулятора */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1000px;
+  border: 2px solid;
+
+}
+
+.screen {
+    background-color: #c6b5b5; /* Белый фон экрана */
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    border-bottom: 1px solid #ddd;
+    color: #333; /* Цвет текста на экране */
+}
+
+.screen span {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.button {
+    
+   
+   
+     /* Увеличил размер шрифта кнопок */
+     
+    /* Увеличил высоту кнопок */
+   /* Цвет кнопок */
+    /* Белый текст на кнопках */
+    
+    
+    
+    justify-content: center;
+}
+
+.digits {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.key {
+    background-color: #fff; /* Белый фон цифровых кнопок */
+    color: #333; /* Цвет текста на цифровых кнопках */
+    font-size: 30px;
+}
+
+.operation {
+    background-color: #634eff; /* Цвет кнопок операций */
+    font-size: 30px;
+    margin: 5px;
+}
+
+.bracket {
+    background-color: #ff00d9; /* Цвет кнопок скобок */
+    font-size: 30px;
+}
+
+.result {
+    background-color: #22b72c; /* Цвет кнопки равно */
+    font-size: 30px;
+    margin: 5px;
+}
+
+.clear {
+    background-color: #ff0101; /* Цвет кнопки очистки */
+    font-size: 30px;
+}
